@@ -1,22 +1,23 @@
 
 
 public class Prova{
+    private AltraClasse obj;
 
-    public Prova(){}
+    public Prova(AltraClasse obj){
+        this.obj = obj;
+    }
 
     public void method_to_change(){
-        System.out.println("Un'altra stringa");
-        System.out.println("Un'altra ancora");
-
-        int y = 3;
-        int x = 4;
-
-        int sum = x + y;
-
-        System.out.println("La somma di " + x + " e " + y + " e' " + sum);
+        System.out.println(obj.getVar1());
     }
 
     public void method_added(String text){
         System.out.println(text);
+        AltraClasse ac = new AltraClasse(text, 3);
+        System.out.println(ac.getVar1());
+    }
+
+    public int num(){
+        return 2;
     }
 }
