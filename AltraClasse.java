@@ -8,7 +8,8 @@ public class AltraClasse{
     }
 
     public String getVar1(){
-        return var1;
+        int temp = getVar2();
+        return var1 + temp;
     }
 
     public int getVar2(){
