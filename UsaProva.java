@@ -6,7 +6,7 @@ public class UsaProva {
     }
 
     public void usa(){
-        int somma = 1 + prova.num();
-        System.out.println(somma);
+        int sum = 1 + prova.num();
+        System.out.println(sum);
     }
 }
