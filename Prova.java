@@ -13,8 +13,8 @@ public class Prova{
 
     public void method_added(String text){
         System.out.println(text);
-        AltraClasse ac = new AltraClasse(text, 3);
-        System.out.println(ac.getVar1());
+        AltraClasse prova = new AltraClasse(text, 3);
+        System.out.println(prova.getVar1());
     }
 
     public int num(){
